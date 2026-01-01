@@ -1,0 +1,21 @@
+:root {
+
+    --bg: #0B1220;
+    --surface: #0F1A2E;
+    --surface-2: #122140;
+    --text: #EAF0FF;
+    --muted: #A9B4D0;
+    --border: rgba(234, 240, 255, 0.10);
+    --primary: #6D5EF6;
+    --primary-2: #9B8CFF;
+    --success: #2EE59D;
+    --warning: #FFCC66;
+
+
+    --container: 1120px;
+    --radius-card: 16px;
+    --radius-btn: 12px;
+
+
+    --section-y: 72px;
+}
