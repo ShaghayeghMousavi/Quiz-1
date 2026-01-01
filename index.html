@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
     <title>vite-project</title>
   </head>
 
@@ -11,26 +12,47 @@
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
 
-    
+
     <header>
-      <div class="container"></div>
-      <div class="logo"></div>
+     
+      
 
-      <nav class="nav-bar"></nav>
+      <nav class="container nav-bar">
 
+        <div class="logo">Nebula UI</div>
+
+        <div>
+          <ul class="nav-links">
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Stories</li>
+          <li>FAQ</li>
+         </ul>
+</div>
+
+<div class="nav-btn">
+  <button class="btn-1">Sign in</button>
+  <button class="btn-2">Get started</button>
+</div>
+
+      </nav>
+ 
 
     </header>
 
 <section class="title">
 
-  <h1>Everything you need, nothing you don't</h1>
-  <p>A focised set of components with sensible spacing,typograph and color tokens. </p>
+  <div class="container">
+    <h1>Everything you need, nothing you don't</h1>
+    <p class="hero-text">
+      A focused set of components with sensible spacing, typography and color tokens.
+    </p>
 
 </section>
 
 <section class="cards">
 
-  <div class="container">
+  <div class="container grid-3">
     <div class="card">
       <h3>Fast layout</h3>
       <p>Grid and flex patterns that scale from marketing pages to dashboards.</p>
@@ -38,15 +60,15 @@
     </div>
 
     <div class="card">
-      <h3>Fast layout</h3>
-      <p>Grid and flex patterns that scale from marketing pages to dashboards.</p>
-      <span class="card-action">Explore layouts →</span>
+      <h3>Clean tokens</h3>
+      <p>Colors, radius and spacing are consistent, so your UI looks intentional.</p>
+      <span class="card-action">See token guide →</span>
     </div>
 
     <div class="card">
-      <h3>Fast layout</h3>
-      <p>Grid and flex patterns that scale from marketing pages to dashboards.</p>
-      <span class="card-action">Explore layouts →</span>
+      <h3>Composable</h3>
+      <p>Cards, badges, buttons, and navs that combine into full sections quickly.</p>
+      <span class="card-action">View components →</span>
     </div>
   </div>
 
