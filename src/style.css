@@ -139,7 +139,7 @@ p {
     margin-bottom: 12px;
 }
 
-.checklist li::before {
+.checklist li {
     content: "✓";
     color: var(--success);
     position: absolute;
